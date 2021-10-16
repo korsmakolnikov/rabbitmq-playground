@@ -1,0 +1,2 @@
+#!/bin/bash
+/usr/bin/rabbitmq-perf-test-2.16.0/bin/runjava com.rabbitmq.perf.PerfTest --uri amqp://rabbit $@

@@ -1,0 +1,18 @@
+version: "3"
+
+services:
+  app:
+    build:
+      context: .
+      args:
+        workdir: $PWD
+    volumes:
+      - .:$PWD
+    working_dir: $PWD
+    depends_on: 
+      - rabbit
+
+  rabbit:
+    image: rabbitmq:latest
+    ports:
+      - "15672:15672"
