@@ -1,6 +1,5 @@
 # RabbitMQ playground
-![do not use this brain!]
-(./do-not-use-this-brain.jpg)
+![do not use this brain!](./do-not-use-this-brain.jpg)
 
 I created this playground to test and experiment performace of RabbitMQ. Do not use in production!
 
